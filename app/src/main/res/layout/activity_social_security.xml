@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SocialSecurityActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:background="@drawable/background4"
+        tools:context=".MainActivity">
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="185dp"
+            android:layout_height="60dp"
+            android:background="#B71C1C"
+            android:text="maistraatti oulu"
+            android:textColor="#FFFFFF"
+            android:textSize="70px"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.473"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.598" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="185dp"
+            android:layout_height="60dp"
+            android:background="#B71C1C"
+            android:text="More Info"
+            android:textColor="#FFFFFF"
+            android:textSize="70px"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.473"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.828" />
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="380dp"
+            android:layout_height="78dp"
+            android:text="Social Security"
+            android:textAlignment="center"
+            android:textColor="#B71C1C"
+            android:textSize="140px"
+            android:textStyle="bold|italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.03" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="321dp"
+            android:layout_height="192dp"
+            android:layout_marginTop="12dp"
+            android:lineSpacingExtra="2sp"
+            android:text="To register and receive the social security number, you are required to visit nearby Register Office (Maistraatti). When you plan to visit the office, please remember to take your passport and valid residence permit with you. "
+            android:textAlignment="viewStart"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toTopOf="@+id/button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            app:layout_constraintVertical_bias="0.36" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

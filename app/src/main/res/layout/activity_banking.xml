@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BankingActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background4"
+        tools:context=".MainActivity">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="260dp"
+            android:layout_height="65dp"
+            android:text="Banking"
+            android:textColor="#B71C1C"
+            android:textSize="140px"
+            android:textStyle="bold|italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.029" />
+
+        <Button
+            android:id="@+id/button_op"
+            android:layout_width="185dp"
+            android:layout_height="60dp"
+            android:background="#B71C1C"
+            android:text="OP"
+            android:textColor="#FFFFFF"
+            android:textSize="70px"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.473"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.517" />
+
+        <Button
+            android:id="@+id/button_nordea"
+            android:layout_width="185dp"
+            android:layout_height="60dp"
+            android:background="#B71C1C"
+            android:text="Nordea"
+            android:textColor="#FFFFFF"
+            android:textSize="70px"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.473"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.679" />
+
+        <Button
+            android:id="@+id/button_danske"
+            android:layout_width="185dp"
+            android:layout_height="60dp"
+            android:background="#B71C1C"
+            android:text="Danske"
+            android:textColor="#FFFFFF"
+            android:textSize="70px"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.473"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.823" />
+
+        <Button
+            android:id="@+id/button_bankmoreinfo"
+            android:layout_width="185dp"
+            android:layout_height="60dp"
+            android:background="#B71C1C"
+            android:text="More Info"
+            android:textColor="#FFFFFF"
+            android:textSize="70px"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.473"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.97" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="302dp"
+            android:layout_height="193dp"
+            android:lineSpacingExtra="2sp"
+            android:text="There are number of banks in Finland and all of them have very good service. Each of them have special facility for their focused customers. Hence, you are free to choose any of this based on your preference."
+            android:textAlignment="viewStart"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toTopOf="@+id/button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.403"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            app:layout_constraintVertical_bias="0.36" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

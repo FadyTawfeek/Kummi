@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FinnishIDActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:background="@drawable/background4"
+        tools:context=".MainActivity">
+
+        <Button
+            android:id="@+id/button_police"
+            android:layout_width="185dp"
+            android:layout_height="60dp"
+            android:background="#B71C1C"
+            android:text="Oulu Police Station"
+            android:textColor="#FFFFFF"
+            android:textSize="70px"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.705" />
+
+        <Button
+            android:id="@+id/button_moreinfo"
+            android:layout_width="185dp"
+            android:layout_height="60dp"
+            android:background="#B71C1C"
+            android:text="More Info"
+            android:textColor="#FFFFFF"
+            android:textSize="70px"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.883" />
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="368dp"
+            android:layout_height="69dp"
+            android:text="Finnish ID Card"
+            android:textAlignment="center"
+            android:textColor="#B71C1C"
+            android:textSize="140px"
+            android:textStyle="bold|italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.801"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.029" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="304dp"
+            android:layout_height="295dp"
+            android:lineSpacingExtra="2sp"
+            android:text="It is not mandatory to have a Finnish ID Card, however we highly recommend to have one, otherwise you may face problem to lift off the restrictions of bank credential. Besides, having one would be certainly helpful to prove your identity anywhere in Finland. To apply for an ID card, you should visit nearby Police Station."
+            android:textAlignment="viewStart"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toTopOf="@+id/button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.579"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            app:layout_constraintVertical_bias="0.36" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
