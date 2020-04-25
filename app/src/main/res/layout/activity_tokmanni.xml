@@ -13,18 +13,18 @@
         android:background="@drawable/background4"
         tools:context=".MainActivity">
 
+
         <ImageView
             android:id="@+id/imageView4"
-            android:layout_width="437dp"
-            android:layout_height="232dp"
+            android:layout_width="433dp"
+            android:layout_height="268dp"
             android:src="@drawable/tokmanni"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.253" />
-
+            app:layout_constraintVertical_bias="0.289" />
 
         <TextView
             android:id="@+id/textView"
