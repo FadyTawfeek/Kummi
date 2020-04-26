@@ -15,8 +15,8 @@
 
         <TextView
             android:id="@+id/textView"
-            android:layout_width="260dp"
-            android:layout_height="65dp"
+            android:layout_width="290dp"
+            android:layout_height="82dp"
             android:text="Dashboard"
             android:textAlignment="center"
             android:textColor="#B71C1C"
@@ -24,10 +24,9 @@
             android:textStyle="bold|italic"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.562"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.05" />
+            app:layout_constraintVertical_bias="0.03" />
 
         <Button
             android:id="@+id/button1"

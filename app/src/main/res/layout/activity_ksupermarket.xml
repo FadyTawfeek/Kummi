@@ -15,9 +15,9 @@
 
         <ImageView
             android:id="@+id/imageView4"
-            android:layout_width="668dp"
-            android:layout_height="272dp"
-            android:src="@drawable/ksupermarket"
+            android:layout_width="876dp"
+            android:layout_height="317dp"
+            android:src="@drawable/kmarket"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.495"
@@ -37,10 +37,10 @@
             android:textStyle="bold|italic"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintHorizontal_bias="0.492"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.029" />
+            app:layout_constraintVertical_bias="0.03" />
 
         <Button
             android:id="@+id/button3"
@@ -55,7 +55,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.729" />
+            app:layout_constraintVertical_bias="0.774" />
 
         <Button
             android:id="@+id/button11"
@@ -70,7 +70,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.904" />
+            app:layout_constraintVertical_bias="0.928" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

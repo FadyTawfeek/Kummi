@@ -41,10 +41,10 @@
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="339dp"
-        android:layout_height="325dp"
+        android:layout_width="334dp"
+        android:layout_height="367dp"
         android:lineSpacingExtra="2sp"
-        android:text="This app has been developed with the intention to help a new comer to Oulu, particularly new international student. We have tried to prodive all required information for a new comer to Oulu in a single platform. Information includes banking, daily life events, transportation, social security number, and so on. We believe this platform would contribute a bit to make your daily life smooth. We wish you all the best from us, from University of Oulu."
+        android:text="This app has been developed with the intention to help a new comer to Oulu, Finland. Particularly to support new international students. We have tried to prodive all required information for a new comer to Oulu in a single platform. Information includes banking, daily life events, transportation, social security number, and so on. We believe this platform would contribute a bit to make your daily life smooth. We wish you all the best from us, from University of Oulu."
         android:textAlignment="viewStart"
         android:textAllCaps="false"
         android:textColor="#000000"

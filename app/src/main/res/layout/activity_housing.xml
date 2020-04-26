@@ -34,24 +34,24 @@
 
         <TextView
             android:id="@+id/textView"
-            android:layout_width="247dp"
-            android:layout_height="69dp"
+            android:layout_width="233dp"
+            android:layout_height="75dp"
             android:text="Housing"
+            android:textAlignment="center"
             android:textColor="#B71C1C"
             android:textSize="140px"
             android:textStyle="bold|italic"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.817"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.029" />
+            app:layout_constraintVertical_bias="0.03" />
 
         <TextView
             android:id="@+id/textView2"
-            android:layout_width="284dp"
-            android:layout_height="208dp"
-            android:layout_marginTop="20dp"
+            android:layout_width="315dp"
+            android:layout_height="220dp"
+            android:layout_marginTop="16dp"
             android:lineSpacingExtra="2sp"
             android:text="Mostly housing is organized by PSOAS for the students of University of Oulu. For non-students or students who were unable to manage housing through PSOAS, there are some private agencies who managed housing."
             android:textAlignment="viewStart"
@@ -60,7 +60,7 @@
             android:textSize="20sp"
             app:layout_constraintBottom_toTopOf="@+id/button"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.401"
+            app:layout_constraintHorizontal_bias="0.684"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView"
             app:layout_constraintVertical_bias="0.36" />

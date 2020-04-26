@@ -17,18 +17,19 @@
 
         <TextView
             android:id="@+id/textView"
-            android:layout_width="259dp"
-            android:layout_height="63dp"
+            android:layout_width="260dp"
+            android:layout_height="65dp"
             android:text="Finance"
+            android:textAlignment="center"
             android:textColor="#B71C1C"
             android:textSize="140px"
             android:textStyle="bold|italic"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintHorizontal_bias="0.496"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.048" />
+            app:layout_constraintVertical_bias="0.029" />
 
         <Button
             android:id="@+id/button9"

@@ -46,24 +46,24 @@
 
         <TextView
             android:id="@+id/textView"
-            android:layout_width="260dp"
-            android:layout_height="65dp"
+            android:layout_width="233dp"
+            android:layout_height="75dp"
             android:text="Tax Card"
+            android:textAlignment="center"
             android:textColor="#B71C1C"
             android:textSize="140px"
             android:textStyle="bold|italic"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.894"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.029" />
+            app:layout_constraintVertical_bias="0.03"/>
 
         <TextView
             android:id="@+id/textView2"
             android:layout_width="308dp"
             android:layout_height="164dp"
-            android:layout_marginTop="56dp"
+            android:layout_marginTop="28dp"
             android:lineSpacingExtra="2sp"
             android:text="In Finland, in order to receive payment from any sort of source of income, you are required to have tax card. It can be applied online or physically in person in nearby tax (Vero Skatt) office."
             android:textAlignment="viewStart"
@@ -72,7 +72,7 @@
             android:textSize="20sp"
             app:layout_constraintBottom_toTopOf="@+id/button"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.489"
+            app:layout_constraintHorizontal_bias="0.592"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView"
             app:layout_constraintVertical_bias="0.36" />
