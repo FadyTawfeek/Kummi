@@ -1,2 +1,2 @@
-rootProject.name='KummiApp'
+rootProject.name='kummi'
 include ':app'
