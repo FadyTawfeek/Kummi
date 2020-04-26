@@ -13,28 +13,19 @@ class ClothesActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_clothes)
 
-        button13.setOnClickListener {
-            val intent = Intent(applicationContext, SearchActivity::class.java)
-            startActivity(intent)
-        }
+
         button13.setOnClickListener{
             val intent = Intent(Intent.ACTION_VIEW, Uri.parse( "https://kontti.redcross.fi/"))
             startActivity(intent)
         }
 
-        button14.setOnClickListener {
-            val intent = Intent(applicationContext, SearchActivity::class.java)
-            startActivity(intent)
-        }
+
         button14.setOnClickListener{
             val intent = Intent(Intent.ACTION_VIEW, Uri.parse( "https://toppila-center.business.site/"))
             startActivity(intent)
         }
 
-        button15.setOnClickListener {
-            val intent = Intent(applicationContext, SearchActivity::class.java)
-            startActivity(intent)
-        }
+
         button15.setOnClickListener{
             val intent = Intent(Intent.ACTION_VIEW, Uri.parse( "https://esnoulu.org/"))
             startActivity(intent)

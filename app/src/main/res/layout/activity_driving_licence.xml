@@ -64,19 +64,18 @@
             android:id="@+id/textView2"
             android:layout_width="326dp"
             android:layout_height="163dp"
-            android:layout_marginTop="48dp"
             android:lineSpacingExtra="2sp"
             android:text="To own a Finnish Driving Licence, you must visit Ajovarma office by making an appointment beforehand. You are also required to have a medical report from designated doctors."
             android:textAlignment="viewStart"
             android:textAllCaps="false"
             android:textColor="#000000"
             android:textSize="20sp"
-            app:layout_constraintBottom_toTopOf="@+id/button"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.635"
+            app:layout_constraintHorizontal_bias="0.67"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView"
-            app:layout_constraintVertical_bias="0.36" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.252" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

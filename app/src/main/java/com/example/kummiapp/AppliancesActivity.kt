@@ -14,30 +14,18 @@ class AppliancesActivity : AppCompatActivity() {
         setContentView(R.layout.activity_appliances)
 
 
-        button16.setOnClickListener {
-            val intent = Intent(applicationContext, SearchActivity::class.java)
-            startActivity(intent)
-        }
 
         button16.setOnClickListener{
             val intent = Intent(Intent.ACTION_VIEW, Uri.parse( "https://www.facebook.com/groups/OuluSalePoint/"))
             startActivity(intent)
         }
 
-        button17.setOnClickListener {
-            val intent = Intent(applicationContext, SearchActivity::class.java)
-            startActivity(intent)
-        }
 
         button17.setOnClickListener{
             val intent = Intent(Intent.ACTION_VIEW, Uri.parse( "https://kontti.redcross.fi/"))
             startActivity(intent)
         }
 
-        button18.setOnClickListener {
-            val intent = Intent(applicationContext, SearchActivity::class.java)
-            startActivity(intent)
-        }
 
         button18.setOnClickListener{
             val intent = Intent(Intent.ACTION_VIEW, Uri.parse( "https://toppila-center.business.site/"))

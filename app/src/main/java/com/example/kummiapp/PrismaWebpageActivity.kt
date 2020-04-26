@@ -11,9 +11,5 @@ class PrismaWebpageActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_prisma_webpage)
 
-        button12.setOnClickListener {
-            val intent = Intent(applicationContext, SearchActivity::class.java)
-            startActivity(intent)
-        }
     }
 }

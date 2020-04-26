@@ -13,10 +13,7 @@ class BikesActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_bikes)
 
-        button19.setOnClickListener {
-            val intent = Intent(applicationContext, SearchActivity::class.java)
-            startActivity(intent)
-        }
+
 
         button19.setOnClickListener{
             val intent = Intent(Intent.ACTION_VIEW, Uri.parse( "https://www.facebook.com/groups/bikeoulu/"))
@@ -24,10 +21,6 @@ class BikesActivity : AppCompatActivity() {
         }
 
 
-        button20.setOnClickListener {
-            val intent = Intent(applicationContext, SearchActivity::class.java)
-            startActivity(intent)
-        }
 
         button20.setOnClickListener{
             val intent = Intent(Intent.ACTION_VIEW, Uri.parse( "https://www.jussinpyora.fi/"))

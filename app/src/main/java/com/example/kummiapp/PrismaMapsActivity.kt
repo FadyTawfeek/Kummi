@@ -11,9 +11,5 @@ class PrismaMapsActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_prisma_maps)
 
-        button12.setOnClickListener {
-            val intent = Intent(applicationContext, SearchActivity::class.java)
-            startActivity(intent)
-        }
     }
 }

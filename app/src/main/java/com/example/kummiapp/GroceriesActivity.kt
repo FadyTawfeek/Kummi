@@ -32,10 +32,6 @@ class GroceriesActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        button_groceries_more_info.setOnClickListener {
-            val intent = Intent(applicationContext, GroceriesOthersActivity::class.java)
-            startActivity(intent)
-        }
 
         button_groceries_more_info.setOnClickListener{
             val intent = Intent(Intent.ACTION_VIEW, Uri.parse( "http://oulu.finland.afabuloustrip.com/loc/3-122/shopping-places/"))
