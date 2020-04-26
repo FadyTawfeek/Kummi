@@ -46,10 +46,10 @@
 
         <TextView
             android:id="@+id/textView2"
-            android:layout_width="300dp"
-            android:layout_height="252dp"
+            android:layout_width="303dp"
+            android:layout_height="256dp"
             android:lineSpacingExtra="2sp"
-            android:text="VR Train is the mostly used train service in Finland for long distance travel. VR also provides service to travel to Russia. Please note, to travel to Russia you may need to go through further process of documention. Hence, please double check before you plan to visit Russia. "
+            android:text="VR Train is the mostly used train service in Finland for long distance travel. VR also provides service to travel to Russia. Please note, to travel to Russia you may need to go through further process of documentation. Hence, please double check before you plan to visit Russia. "
             android:textAlignment="viewStart"
             android:textAllCaps="false"
             android:textColor="#000000"

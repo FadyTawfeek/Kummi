@@ -13,7 +13,6 @@
         <activity android:name=".KsupermarketActivity"></activity>
         <activity android:name=".LidlActivity" />
         <activity android:name=".TokmanniActivity" />
-        <activity android:name=".SearchActivity" />
         <activity android:name=".TrainActivity" />
         <activity android:name=".IntercityBusActivity" />
         <activity android:name=".LocalBusActivity" />
@@ -25,16 +24,12 @@
         <activity android:name=".SocialSecurityActivity" />
         <activity android:name=".TaxcardActivity" />
         <activity android:name=".AdministrativeServicesActivity" />
-        <activity android:name=".BanksActivity" />
-        <activity android:name=".NordeaActivity" />
         <activity android:name=".BankingActivity" />
-        <activity android:name=".Banking" />
         <activity android:name=".FinanceActivity" />
         <activity android:name=".BikesActivity" />
         <activity android:name=".AppliancesActivity" />
         <activity android:name=".ClothesActivity" />
         <activity android:name=".ShoppingOthersActivity" />
-        <activity android:name=".GroceriesOthersActivity" />
         <activity android:name=".Shopping2Activity" />
         <activity android:name=".PrismaWebpageActivity" />
         <activity android:name=".PrismaMapsActivity" />
@@ -42,7 +37,6 @@
             <tools:validation testUrl="https://www.prisma.fi/fi/prisma" />
         </activity>
         <activity android:name=".GroceriesActivity" />
-        <activity android:name=".ShoppingActivity" />
         <activity android:name=".DashboardActivity" /> <!-- <activity android:name=".activity_dashboard" /> -->
         <activity android:name=".MainActivity">
             <intent-filter>

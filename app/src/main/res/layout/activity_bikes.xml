@@ -34,7 +34,7 @@
             android:layout_width="292dp"
             android:layout_height="214dp"
             android:lineSpacingExtra="2sp"
-            android:text="Our advise would be to become a memeber of Oulu Bike Sale facebook page in order find good quality bike in cheap price. If you are interested to buy new bike, there are number of shops and easy to find them."
+            android:text="Our advise would be to become a member of Oulu Bike Sale facebook page in order find good quality bike in cheap price. If you are interested to buy new bike, there are number of shops and easy to find them."
             android:textAlignment="viewStart"
             android:textAllCaps="false"
             android:textColor="#000000"
